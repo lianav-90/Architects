@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+}
+main {
+    width: 80%;
+    margin: auto;
+}
+nav span {
+    font-weight: bold;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 5px;
+    font-size: 19px;
+    padding: 0.5%;
+}
+nav a:hover {
+    background-color: #CCCCCC;
+}
+nav {
+    padding: 1%;
+    border-bottom: 1px solid #D5CBF1;
+    box-shadow: 0px 1px 5px grey;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+a:nth-child(2) {
+    margin-left: 71%;
+}
+header {
+    position: relative;
+}
+header div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px;
+    width: 22%;
+}
+img {
+    width: 100%;
+}
+header span {
+    background-color: black;
+    padding: 4%;
+    opacity: 0.7;
+    font-weight: bold;
+}
+h1 {
+    font-size: 27px;
+    font-weight: normal;
+    border-bottom: 1px solid #F1F1F1;
+    margin-top: 4.5%;
+    padding-bottom: 1%;
+}
+section div {
+    display: inline-block;
+    width: 24%;
+    margin: 1% 1% 0% 0%;
+    position: relative;
+}
+div.last {
+    margin-right: 0;
+}
+p {
+    font-size: 18px;
+}
+section#projects p {
+    color: white;
+    background-color: black;
+    position: absolute;
+    padding: 2% 5%;
+    top: -20px;
+    left: 0px;
+}
+section#about img {
+    filter: grayscale(80%);
+}
+h3 {
+    color: grey;
+    font-weight: normal;
+}
+section button {
+    background-color: #F1F1F1;
+    border: none;
+    width: 100%;
+    padding: 2.5%;
+    font-size: 18px;
+}
+h2 {
+    font-size: 27px;
+    font-weight: normal;
+}
+section button:hover {
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+input {
+    width: 100%;
+    padding: 0.5%;
+    font-size: 16px;
+    margin-bottom: 1%;
+}
+form button {
+    margin: 1% 0;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0.7% 1%;
+    font-size: 15px;
+}
+form button:hover {
+    background-color: #CCCCCC;
+    color: black;
+    cursor: pointer;
+}
+form+img {
+    margin-top: 2.5%;
+}
+footer {
+    background-color: black;
+    padding: 1.7%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: #488F3F;
+}
+@media all and (max-width: 768px) {
+    a:nth-child(2) {
+        margin-left: 35%;
+    }
+    section div {
+        width: 48.3%;
+    }
+    header div {
+        width: 53%;
+    }
+}
+@media all and (max-width: 380px) {
+    nav a {
+        font-size: 12px;
+    }
+    a:nth-child(2) {
+        margin-left: 0;
+    }
+    header div {
+        font-size: 15px;
+        width: 55%;
+    }
+    h1, h2 {
+        font-size: 15px;
+    }
+    p, h3, section button, input, form button, footer {
+        font-size: 10px;
+    }
+    section#projects p {
+        top: -10px;
+    }
+    section div {
+        width: 100%;
+    }
+}
+
